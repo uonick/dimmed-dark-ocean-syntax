@@ -1,0 +1,6 @@
+{
+  "name": "Dimmed-dark-ocean-syntax",
+  "tagline": "A dark syntax theme based on One Dark",
+  "body": "## Dimmed Dark Ocean theme based on One Dark Syntax\r\nThere is also a matching [UI theme](https://atom.io/themes/one-dark-ui).\r\n\r\n### Support syntax\r\n* PHP\r\n* PYTHON\r\n* JAVASCRIPT\r\n* GO\r\n* JAVA\r\n* RUBY\r\n* INI\r\n* CSS\r\n* JSON\r\n* HTML\r\n* VOLT\r\n\r\n\r\n### Screenshots\r\n![PHP](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/php.png)\r\n![PYTHON](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/python.png)\r\n![RUBY](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/ruby.png)\r\n![JS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/javascript.png)\r\n![CSS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/css.png)\r\n![HTML](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/html.png)\r\n\r\n\r\n### Install\r\nThis theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
