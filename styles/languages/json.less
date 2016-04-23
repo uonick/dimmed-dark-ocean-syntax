@@ -1,0 +1,31 @@
+.source.json {
+  .meta.structure.dictionary.json {
+    & > .string.quoted.json {
+      & > .punctuation.string {
+        color: @red;
+      }
+      color: @red;
+    }
+  }
+
+  .meta.structure.dictionary.json, .meta.structure.array.json {
+    & > .value.json > .string.quoted.json,
+    & > .value.json > .string.quoted.json > .punctuation {
+      color: @green;
+    }
+
+    & > .constant.language.json {
+      color: @space-blue;
+    }
+  }
+}
+.markup.underline.link.https.hyperlink,
+.markup.underline.link.http.hyperlink{
+    color:@space-blue;
+}
+.string.quoted.double.json,
+.punctuation.definition.string.begin.json,
+.punctuation.definition.string.end.json,
+.string.quoted.single.json{
+    color:@green;
+}
