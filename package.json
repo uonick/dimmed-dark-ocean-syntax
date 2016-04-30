@@ -1,12 +1,17 @@
 {
   "name": "dimmed-dark-ocean-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dark syntax theme based on One Dark",
   "keywords": [
     "dark",
     "blue",
-    "syntax"
+    "syntax",
+    "ocean",
+    "onedark",
+    "dimmed",
+    "black",
+    "base16"
   ],
   "repository": "https://github.com/uonick/dimmed-dark-ocean-syntax",
   "license": "MIT",
