@@ -31,7 +31,3 @@ There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
 ![JS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/javascript.png)
 ![CSS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/css.png)
 ![HTML](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/html.png)
-
-
-### Install
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.
