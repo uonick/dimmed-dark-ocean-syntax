@@ -1,3 +1,12 @@
+# Dimmed collection
+
+[Sublime Text 2/3] (https://uonick.ru/dimmed/)
+
+[PHP Storm] (https://uonick.ru/dimmed-phpstorm/)
+
+[Atom](https://uonick.ru/dimmed-dark-ocean-syntax/)
+
+
 ## Dimmed Dark Ocean theme based on One Dark Syntax
 There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
 
@@ -22,7 +31,3 @@ There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
 ![JS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/javascript.png)
 ![CSS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/css.png)
 ![HTML](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/html.png)
-
-
-### Install
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.
