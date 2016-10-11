@@ -1,0 +1,50 @@
+.source.js {
+  .keyword.operator {
+    color: @space-blue;
+    &.delete,
+    &.in,
+    &.of,
+    &.instanceof,
+    &.new,
+    &.typeof,
+    &.void {
+      color: @pink
+    }
+  }
+}
+.entity.name.function.js,
+.constant.numeric.decimal.js{
+    color:@red;
+}
+.support.function.js,
+.keyword.control.js{
+    color:@pink;
+}
+.variable.parameter.function.js,
+.meta.arguments.js,
+.entity.name.function.js{
+    color:@space-blue;
+}
+.string.quoted.single.js,
+.punctuation.definition.string.begin.js,
+.punctuation.definition.string.end.js,
+.string.quoted.double.js
+{
+    color:@green;
+}
+.punctuation.definition.arguments.end.bracket.r{
+    color:@blue-gray;
+}
+.constant.other.character-class.set.regexp,
+.keyword.control.anchor.regexp
+{
+    color:@green;
+}
+.constant.character.escape.backslash.regexp,
+.punctuation.definition.group.regexp,
+.constant.character.escape.js{
+    color: @teal;
+}
+.string.regexp.js{
+    color:@gray-silver;
+}

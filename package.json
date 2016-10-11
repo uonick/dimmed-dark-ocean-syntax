@@ -1,0 +1,39 @@
+{
+  "name": "dimmed-dark-ocean-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A dark syntax theme based on One Dark",
+  "keywords": [
+    "dark",
+    "blue",
+    "syntax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uonick/dimmed-dark-ocean-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "## Dimmed Dark Ocean theme based on One Dark Syntax\nThere is also a matching [UI theme](https://atom.io/themes/one-dark-ui).\n\n### Support syntax\n* PHP\n* PYTHON\n* JAVASCRIPT\n* GO\n* JAVA\n* RUBY\n* INI\n* CSS\n* JSON\n* HTML\n* VOLT\n\n\n### Screenshots\n![PHP](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/php.png)\n![PYTHON](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/python.png)\n![RUBY](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/ruby.png)\n![JS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/javascript.png)\n![CSS](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/css.png)\n![HTML](https://raw.githubusercontent.com/uonick/dimmed-dark-ocean-syntax/master/img/html.png)\n\n\n### Install\nThis theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/uonick/dimmed-dark-ocean-syntax/issues"
+  },
+  "homepage": "https://github.com/uonick/dimmed-dark-ocean-syntax#readme",
+  "_id": "dimmed-dark-ocean-syntax@1.0.0",
+  "_shasum": "c377d3ff3004421d42816fd4106df353a9d5ef95",
+  "_resolved": "file:../d-116323-92417-1pywle9/package.tgz",
+  "_from": "../d-116323-92417-1pywle9/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
