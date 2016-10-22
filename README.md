@@ -7,7 +7,7 @@
 [Atom](https://uonick.ru/dimmed-dark-ocean-syntax/)
 
 
-## Dimmed Dark Ocean theme based on One Dark Syntax
+## Dimmed Dark Ocean theme based on Ocean Syntax
 There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
 
 ### Support syntax
