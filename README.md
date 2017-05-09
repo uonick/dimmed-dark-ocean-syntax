@@ -1,8 +1,8 @@
 # Dimmed collection
 
-[Sublime Text 2/3] (https://uonick.ru/dimmed/)
+[Sublime Text 2/3](https://uonick.ru/dimmed/)
 
-[PHP Storm] (https://uonick.ru/dimmed-phpstorm/)
+[PHP Storm](https://uonick.ru/dimmed-phpstorm/)
 
 [Atom](https://uonick.ru/dimmed-dark-ocean-syntax/)
 
