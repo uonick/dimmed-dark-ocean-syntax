@@ -1,0 +1,173 @@
+.syntax--keyword
+{
+    &.syntax--operator.syntax--logical.syntax--php
+    {
+        color: @hue-3;
+    }
+    &.syntax--other
+    {
+        &.syntax--phpdoc.syntax--php
+        {
+            color: @mono-2;
+        }
+        &.syntax--use.syntax--php
+        {
+            color: @hue-5;
+        }
+        &.syntax--namespace.syntax--php {
+            color: @hue-5;
+        }
+    }
+}
+
+.syntax--meta 
+{
+    .syntax--function.syntax--parameter.syntax--typehinted.syntax--php 
+    {
+        .syntax--storage {
+            &.syntax--type.syntax--php 
+            {
+                color: @hue-1;
+            }
+        }
+    }
+}
+
+
+
+.syntax--entity
+{
+    &.syntax--other.syntax--alias.syntax--php, 
+    &.syntax--name.syntax--function.syntax--php 
+    {
+        color: @hue-5;
+    }
+    &.syntax--other.syntax--inherited-class.syntax--php
+    {
+        color: @hue-6-2;
+    }
+}
+
+
+.syntax--meta
+{
+    &.syntax--function-call
+    {
+        
+        &.syntax--object.syntax--php
+        {
+            color: @hue-6-2;
+        }
+        &.syntax--static.syntax--php
+        {
+            color: @hue-6;
+        }
+        &.syntax--php {
+            color: @hue-3;
+        }
+    }
+}
+
+.syntax--variable
+{
+    &.syntax--language {
+        &.syntax--this {
+            &.syntax--php {
+                color: @hue-2;
+            }
+        }
+    }
+    &.syntax--other
+    {
+        &.syntax--php
+        {
+            color: @hue-2;
+        }
+        &.syntax--property.syntax--php
+        {
+            color: @hue-5;
+        }
+    }
+
+}
+
+.syntax--punctuation
+{
+    &.syntax--definition.syntax--variable.syntax--php
+    {
+        color: @hue-2;
+    }
+}
+
+
+.syntax--constant
+{
+    &.syntax--other.syntax--php, 
+    &.syntax--language.syntax--php
+    {
+        color: @hue-5-2;
+    }
+}
+
+.syntax--support
+{
+    &.syntax--constant.syntax--core.syntax--php
+    {
+        color: @hue-5-2;
+    }
+    &.syntax--function
+    {
+        color: @hue-3;
+        &.syntax--magic.syntax--php
+        {
+            color: @hue-1;
+        }
+        &.syntax--filter.syntax--php
+        {
+            color: @hue-3;
+        }
+    }
+    &.syntax--other.syntax--namespace.syntax--php
+    {
+        color: @hue-6-2;
+    }
+}
+
+
+.syntax--string.syntax--quoted.syntax--double.syntax--php
+{
+    .syntax--variable.syntax--other.syntax--php,
+    .syntax--punctuation.syntax--definition.syntax--variable.syntax--php
+    {
+        color: @hue-1;
+    }
+}
+
+
+// stupid atom fixes
+.syntax--meta.syntax--function.syntax--argument.syntax--typehinted.syntax--php {
+    .syntax--invalid,
+    .syntax--illegal {
+        color: @hue-6 !important;
+        background-color: @syntax-bg !important;
+    }
+}
+
+.syntax--meta.syntax--function-call.syntax--php 
+> .syntax--entity.syntax--name.syntax--function.syntax--php 
+{
+    color: @hue-3;
+}
+
+.syntax--meta.syntax--method-call.syntax--static.syntax--php
+{
+    > .syntax--keyword.syntax--other.syntax--class.syntax--php 
+    {
+        color: @hue-5;
+    }
+}
+
+.syntax--keyword.syntax--other.syntax--class.syntax--php
+{
+    color: @hue-5 !important;; 
+}

@@ -1,0 +1,47 @@
+.syntax--source.syntax--js {
+  .syntax--keyword.syntax--operator {
+    color: @hue-1;
+
+    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
+    // search "instanceof" for location
+    &.syntax--delete,
+    &.syntax--in,
+    &.syntax--of,
+    &.syntax--instanceof,
+    &.syntax--new,
+    &.syntax--typeof,
+    &.syntax--void {
+      color: @hue-3;
+    }
+  }
+}
+
+.syntax--variable.syntax--parameter.syntax--function.syntax--js {
+    color: @hue-2;
+}
+.syntax--entity.syntax--name.syntax--function.syntax--js
+{
+    color: @hue-3;
+}
+.syntax--constant.syntax--language.syntax--boolean.syntax--false.syntax--js,
+.syntax--constant.syntax--language.syntax--boolean.syntax--true.syntax--js {
+    color: @hue-5-2;
+}
+.syntax--constant.syntax--other.syntax--js
+{
+    color: @hue-5-2;
+}
+
+.syntax--keyword.syntax--operator.syntax--assignment.syntax--js
+{
+    color: @mono-1;
+}
+.syntax--js.syntax--embedded.syntax--source > .syntax--punctuation.syntax--section.syntax--embedded.syntax--js,
+.syntax--js.syntax--embedded.syntax--source > .syntax--constant.syntax--other.syntax--js
+{
+    color: @hue-1;
+}
+.syntax--storage.syntax--type.syntax--class.syntax--jsdoc
+{
+    color: @mono-2;
+}
